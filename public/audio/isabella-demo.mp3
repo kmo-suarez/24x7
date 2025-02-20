@@ -1,0 +1,29 @@
+// Assuming this is a JavaScript/Node.js environment and you are using Express.js
+
+const express = require('express');
+const app = express();
+const path = require('path');
+
+// Serve static files from the 'public' directory
+app.use(express.static(path.join(__dirname, 'public')));
+
+// Define a route to serve the audio file
+app.get('/audio/isabella-demo.mp3', (req, res) => {
+  const audioFilePath = path.join(__dirname, 'public', 'audio', 'isabella-demo.mp3');
+  res.sendFile(audioFilePath);
+});
+
+
+//Example usage in a webpage (HTML)
+// <audio controls>
+//   <source src="/audio/isabella-demo.mp3" type="audio/mpeg">
+//   Your browser does not support the audio element.
+// </audio>
+
+
+//Rest of your server code here...
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+  console.log(`Server listening on port ${port}`);
+});
+
