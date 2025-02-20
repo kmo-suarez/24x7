@@ -15,7 +15,7 @@ export function Hero() {
               Trabajadores digitales, Resultados humanos 24x7.
             </h1>
             <p className="mt-4 text-gray-600 max-w-lg text-sm md:text-base">
-              Descubre cómo los agentes de IA de x-13 están transformando las empresas y redefiniendo la productividad
+              Descubre cómo los agentes de IA de 24xseven están transformando las empresas y redefiniendo la productividad
               con nuestra fuerza laboral virtual de vanguardia.
             </p>
             <div className="mt-6 md:mt-8 flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4">

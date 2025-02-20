@@ -16,7 +16,7 @@ export function Hero() {
               Digital workers, Human results.
             </h1>
             <p className="mt-4 text-gray-600 max-w-lg text-sm md:text-base">
-              Discover how x-13's AI agents are transforming businesses and redefining productivity with our
+              Discover how 24x7's AI agents are transforming businesses and redefining productivity with our
               cutting-edge virtual workforce.
             </p>
             <div className="mt-6 md:mt-8 flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4">
