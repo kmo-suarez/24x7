@@ -26,12 +26,12 @@ export function CallToAction() {
         <div className="flex gap-8 items-center justify-center flex-col">
           <div>
             <Button variant="secondary" size="sm" className="gap-4">
-              Revoluciona tu negocio con 13-x <MoveRight className="w-4 h-4" />
+              Revoluciona tu negocio con 24x7 <MoveRight className="w-4 h-4" />
             </Button>
           </div>
           <div className="flex gap-4 flex-col">
             <h2 className="text-4xl md:text-6xl max-w-2xl tracking-tighter text-center font-regular">
-              <span className="text-blue-600">Contrata agentes de IA de 13-x que son</span>
+              <span className="text-blue-600">Contrata agentes de IA de 24x7 que son</span>
               <span className="relative flex w-full justify-center overflow-hidden text-center md:pb-4 md:pt-1">
                 &nbsp;
                 {titles.map((title, index) => (
@@ -59,7 +59,7 @@ export function CallToAction() {
             </h2>
 
             <p className="text-lg md:text-xl leading-relaxed tracking-tight text-gray-600 max-w-2xl text-center">
-              Transforma tu negocio con los agentes de IA de 13-x. Aumenta la productividad, reduce costos y proporciona
+              Transforma tu negocio con los agentes de IA de 24x7. Aumenta la productividad, reduce costos y proporciona
               servicio las 24 horas con nuestra fuerza laboral virtual de vanguardia.
             </p>
           </div>

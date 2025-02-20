@@ -9,7 +9,7 @@ export function CEOMessage() {
           <div className="w-32 h-32 relative rounded-full overflow-hidden">
             <Image
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1725893802808.jfif-IWw0vgLD9F1e577VkYmIs906KKhpwW.jpeg"
-              alt="Kmo Suarez - CEO of 13-x"
+              alt="Kmo Suarez - CEO of 24x7"
               fill
               className="object-cover"
               sizes="(max-width: 128px) 100vw, 128px"
@@ -18,12 +18,12 @@ export function CEOMessage() {
           <div>
             <h2 className="text-2xl font-bold mb-4">A Message from Our CEO</h2>
             <blockquote className="text-gray-600 italic mb-4">
-              "At 13-x, we're not just building AI agents – we're shaping the future of work. Our mission is to empower
+              "At 24x7, we're not just building AI agents – we're shaping the future of work. Our mission is to empower
               businesses with intelligent digital workers that deliver real value. We believe in creating AI solutions
               that are not only powerful but also accessible and ethical, ensuring that the benefits of AI reach
               businesses of all sizes."
             </blockquote>
-            <p className="font-semibold">Kmo Suarez, CEO of 13-x</p>
+            <p className="font-semibold">Kmo Suarez, CEO of 24x7</p>
           </div>
         </div>
       </Card>
